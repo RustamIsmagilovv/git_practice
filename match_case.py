@@ -1,4 +1,5 @@
 def http_error(status):
+    """Match case example"""
     match status:
         case 400:
             return 'Bad request'
@@ -11,6 +12,6 @@ def http_error(status):
         
 
 if __name__ == '__main__':
-    pass
+    http_error(404)
     http_error(418)
     
