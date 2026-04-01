@@ -11,5 +11,6 @@ def http_error(status):
         
 
 if __name__ == '__main__':
+    pass
     http_error(418)
     
